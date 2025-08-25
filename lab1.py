@@ -5,7 +5,7 @@ import math
 # CONFIG
 NUM_CITIES = 10
 POP_SIZE = 100
-GENERATIONS = 200
+GENERATIONS = 20
 MUTATION_RATE = 0.02
 
 # -----------------------------
@@ -83,6 +83,5 @@ for gen in range(GENERATIONS):
 # Final best route
 best_tour = scored[0][0]
 print("\nBest tour found:", best_tour)
-print("Coordinates:")
-for i in best_tour:
-    print(cities[i])
+
+
